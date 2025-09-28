@@ -1,0 +1,61 @@
+html{
+    box-sizing: border-box
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.first-image, .second-image,.third-image, .fourth-image{
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    position: relative;
+    background-attachment: fixed; /* parallax effect */
+}
+section{
+    padding: 5rem 3rem;
+}
+section  h1, p{
+    margin: 0;
+}
+.light{
+    background-color: #f5f5f5;
+    color: #0f0f0f;
+    text-align: center
+}
+.dark{
+    background-color: #282e34;
+    color: #ddd;
+    text-align: center
+}
+.first-image{
+    background-image: url(./light1.jpg);
+}
+
+.second-image{
+    background-image: url(./dark1.jpeg);
+}
+.third-image{
+    background-image: url(./light2.jpg)
+}
+.fourth-image{
+    background-image: url(./dark2.jpg)
+}
+span{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
