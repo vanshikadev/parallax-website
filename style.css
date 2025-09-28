@@ -37,17 +37,17 @@ section  h1, p{
     text-align: center
 }
 .first-image{
-    background-image: url(./light1.jpg);
+    background-image: url(./image/light1.jpg);
 }
 
 .second-image{
-    background-image: url(./dark1.jpeg);
+    background-image: url(./image/dark1.jpeg);
 }
 .third-image{
-    background-image: url(./light2.jpg)
+    background-image: url(./image/light2.jpg)
 }
 .fourth-image{
-    background-image: url(./dark2.jpg)
+    background-image: url(./image/dark2.jpg)
 }
 span{
     position: absolute;
